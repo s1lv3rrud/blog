@@ -2,7 +2,7 @@ baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 3
-title: 코딩공방
+title: 냥냥공방
 copyright: s1lv3rrud
 
 # Theme i18n support
@@ -16,7 +16,7 @@ hasCJKLanguage: false
 languages:
   en:
     languageName: English
-    title: 코딩공방
+    title: 냥냥공방
     weight: 1
     params:
       description: Example description
