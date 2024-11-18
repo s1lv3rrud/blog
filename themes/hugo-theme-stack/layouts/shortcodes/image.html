@@ -1,0 +1,13 @@
+{{- $src := .Get "src" -}} {{- $alt := .Get "alt" | default "Image" -}} {{-
+$width := .Get "width" | default "100%" -}}
+
+<figure class="image-caption">
+  <img
+    src="{{ $src | safeURL }}"
+    alt="{{ $alt }}"
+    style="width: {{ $width }};"
+  />
+  {{- with .Get "caption" -}}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end -}}
+</figure>
