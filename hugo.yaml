@@ -1,38 +1,17 @@
 baseurl: https://example.com
-languageCode: en-us
+languageCode: ko-KR
 theme: hugo-theme-stack
 paginate: 3
-title: 냥냥공방
-copyright: s1lv3rrud
+title: 은경's Devlog
+copyright: 이은경
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
+DefaultContentLanguage: ko
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
-
-languages:
-  en:
-    languageName: English
-    title: 냥냥공방
-    weight: 1
-    params:
-      description: Example description
-  zh-cn:
-    languageName: 中文
-    title: 演示站点
-    weight: 2
-    params:
-      description: 演示说明
-  ar:
-    languageName: عربي
-    languagedirection: rtl
-    title: موقع تجريبي
-    weight: 3
-    params:
-      description: وصف تجريبي
 
 services:
   # Change it to your Disqus shortname before using
@@ -62,7 +41,7 @@ params:
 
   sidebar:
     emoji:
-    subtitle: 안녕하세요 👋
+    subtitle:
     avatar:
       enabled: true
       local: true
