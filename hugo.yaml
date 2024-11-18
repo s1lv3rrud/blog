@@ -50,7 +50,7 @@ params:
   article:
     math: false
     toc: true
-    readingTime: true
+    readingTime: false # readingTime 표시 여부
     license:
       enabled: true
       default: Licensed under CC BY-NC-SA 4.0
@@ -192,11 +192,6 @@ menu:
       url: https://github.com/s1lv3rrud
       params:
         icon: brand-github
-    - identifier: instagram
-      name: Instagram
-      url: https://www.instagram.com/s1lv3rrud/
-      params:
-        icon: brand-instagram
     - identifier: linkedin
       name: LinkedIn
       url: https://www.linkedin.com/in/eungyeong-lee-45315a293/
