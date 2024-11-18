@@ -197,6 +197,11 @@ menu:
       url: https://www.instagram.com/s1lv3rrud/
       params:
         icon: brand-instagram
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/eungyeong-lee-45315a293/
+      params:
+        icon: brand-linkedin
 
 related:
   includeNewer: true
