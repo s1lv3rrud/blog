@@ -19,6 +19,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
+          extended: true
 
       # 3. Hugo로 정적 사이트 빌드
       - name: Build site
