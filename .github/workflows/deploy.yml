@@ -1,0 +1,34 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # blog 저장소의 main 브랜치에 변경이 있을 때 트리거
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 저장소 클론
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Hugo 설치
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+
+      # 3. Hugo로 정적 사이트 빌드
+      - name: Build site
+        run: hugo
+
+      # 4. 빌드 결과를 GitHub Pages 배포 저장소로 푸시
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          external_repository: s1lv3rrud/s1lv3rrud.github.io # 배포할 저장소
+          publish_branch: main # 배포 저장소의 브랜치
+          publish_dir: ./public # Hugo가 빌드한 결과물 디렉토리
