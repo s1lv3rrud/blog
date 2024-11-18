@@ -192,6 +192,11 @@ menu:
       url: https://github.com/s1lv3rrud
       params:
         icon: brand-github
+    - identifier: instagram
+      name: Instagram
+      url: https://www.instagram.com/s1lv3rrud/
+      params:
+        icon: brand-instagram
 
 related:
   includeNewer: true
