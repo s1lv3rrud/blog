@@ -1,6 +1,6 @@
 ---
 title: 노션 생성 일시 수정하기
-date: 2024-07-14T00:54:16+09:00
+date: 2024-07-14
 description: notion/modify-createdAt
 tags: ["notion"]
 categories: ["notion"]
