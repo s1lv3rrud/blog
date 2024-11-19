@@ -1,15 +1,12 @@
-+++
-title = "[Notion] 노션 생성 일시 수정하기"
-date = 2024-07-14T00:54:16+09:00
-description = "notion/modify-createdAt"
-tags = [
-    "notion"
-]
-categories = [
-    "notion"
-]
-image = "2-1.png"
-+++
+---
+title: 노션 생성 일시 수정하기
+date: 2024-07-14T00:54:16+09:00
+description: notion/modify-createdAt
+tags: ["notion"]
+categories: ["notion"]
+image: 2-1.png
+math: true
+---
 
 노션의 생성 일시는 자동으로 값이 할당되며, 수정이 불가능하다.
 
